@@ -1,0 +1,80 @@
+p{
+	background:gold
+}
+body{
+	padding:40px;
+	margin: 20px;
+	background-color: #ccc;
+	font-size: 1.5em;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	color: #455667;
+	background-color: orange;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Rockwell, georgia, serif;
+	text-decoration: underline;
+  	letter-spacing: 4px;
+	padding: 12px;
+	margin: 24px;
+	border-width: 8px;
+}
+h2{
+	color:#A52A2A;
+	background-color: #7FFF00;
+	font-weight: 12px;
+	font-family: "Comic Sans MS";
+	text-decoration: bold;
+	letter-spacing: 5px;
+	padding: 0 0 0 10;
+	margin: 24px;
+	border-width: 8px;
+}
+	#wrapper ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top:40%;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+#wrapper li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#wrapper li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#wrapper li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 201px;
+      height: 10%
+      margin-left: 15%;
+      align-content: center;
+      text-align: center;
+      align-self: :center;
+      font-size: 12pt;
+      font-family: Arial;
+      background-color: grey;
+  }
+#Home {
+    margin-left:200px;
+    margin-top: 40%;
+     padding:0;
+     height:100%;
+     font-family:arial;
+}
